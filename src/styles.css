@@ -216,3 +216,50 @@ body {
   padding: 0.6rem 3rem;
   cursor: pointer;
 }
+
+/* styles.css additions for makepost2 */
+.recommend-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.recommend-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommend-box {
+  background: #f1f1f1;
+  padding: 1rem;
+  width: 200px;
+  min-height: 250px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.recommend-pill {
+  background: #d8d8d8;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.post-btn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background: #7ec77e;
+  padding: 0.7rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}

@@ -30,7 +30,6 @@ export default function HomePage() {
           <NavLink to="/"          className={linkClass}>Home</NavLink>
           <NavLink to="/make-post" className={linkClass}>Make Post</NavLink>
           <button className="nav-btn">My Posts</button>
-          <button className="nav-btn">Saved Devs</button>
         </nav>
 
         <div className="search-container">
